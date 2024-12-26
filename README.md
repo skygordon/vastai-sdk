@@ -30,7 +30,7 @@ Python 3.11.2 (main, Aug 26 2024, 07:20:54) [GCC 12.2.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import vastai_sdk
 >>> v = vastai_sdk.VastAI()
->>> v.search_offers()
+>>> v.search_offers(query="gpu_name=RTX_4090")
 ````
 This is easy, you got this! 
 
